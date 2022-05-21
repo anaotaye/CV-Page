@@ -1,0 +1,36 @@
+.home {
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  //background:
+  //background-color: linear-gradient(
+  //   to right,
+  //   rgba(#272727, 0.9),
+  //   (#272727, 0.3)
+  // );
+  background: linear-gradient(
+      to top,
+      rgba(39, 39, 39, 0.9),
+      rgba(39, 39, 39, 0.3)
+    ),
+    url("../dist/img/model-1.jpg") center top;
+  background-size: cover;
+  // background-image: ;
+
+  &__name {
+    font-size: 5rem;
+    // font-weight: 700;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-bottom: 2px solid set-text-color($primary-color);
+
+    &--last {
+      color: $secondary-color;
+      font-weight: 700;
+    }
+  }
+}
